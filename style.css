@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(200, 167, 219);
+    padding-left: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+.text {
+    font-size: 27px;
+}
+
+ul { 
+    padding-left: 1.5rem;
+    list-style-type: none;
+}
+
+ul a {
+    padding-left: 2.3rem;
+    background-image: url(./images/utensils.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: rgb(148, 26, 26);
+}
+
+ul a:hover {
+    font-weight: bolder;
+}
